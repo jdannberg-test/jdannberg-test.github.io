@@ -26,8 +26,8 @@ feature_row:
     btn_label: "Read More"
     btn_class: "btn--primary"
   - image_path: gallery/jellyfish.jpg
-    title: "2d convection model with a jellyfish"
-    excerpt: "Visualization of a 2d convection model heated from the bottom and cooled from the top. The aqua region in form of a jellyfish has a higher viscosity and deforms less than the surrounding material. The background shows the adaptively changing mesh and the temperature in a blue-red colorscale."
+    title: "[2d convection model with a jellyfish](https://www.youtube.com/watch?v=YzNTubNG83Q)"
+    excerpt: "The model is heated from the bottom and cooled from the top. The aqua region in form of a jellyfish has a higher viscosity and deforms less than the surrounding material. The background shows the adaptively changing mesh and the temperature in a blue-red colorscale."
     url: "https://www.youtube.com/watch?v=YzNTubNG83Q"
     btn_label: "Youtube"
     btn_class: "btn--primary"
@@ -38,46 +38,9 @@ feature_row:
     url: "#test-link"
     btn_label: "Youtube"
     btn_class: "btn--primary"
-feature_row2:
-  - image_path: gallery/plume_with_melt.jpg
-    alt: "placeholder image 2"
-    title: "Placeholder Image Left Aligned"
-    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Left aligned with `type="left"`'
-    url: "#test-link"
-    btn_label: "Read More"
-    btn_class: "btn--primary"
-feature_row3:
-  - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
-    alt: "placeholder image 2"
-    title: "Placeholder Image Right Aligned"
-    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Right aligned with `type="right"`'
-    url: "#test-link"
-    btn_label: "Read More"
-    btn_class: "btn--primary"
-feature_row4:
-  - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
-    alt: "placeholder image 2"
-    title: "Placeholder Image Center Aligned"
-    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Centered with `type="center"`'
-    url: "#test-link"
-    btn_label: "Read More"
-    btn_class: "btn--primary"
 ---
-
-{% include feature_row id="intro" type="center" %}
 
 {% include feature_row %}
 
-{% include feature_row id="feature_row2" type="left" %}
-
-{% include feature_row id="feature_row3" type="right" %}
-
-{% include feature_row id="feature_row4" type="center" %}
-
 {% include base_path %}
-
-
-{% for post in site.portfolio %}
-  {% include archive-single.html %}
-{% endfor %}
 
