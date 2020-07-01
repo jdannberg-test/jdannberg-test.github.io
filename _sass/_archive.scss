@@ -163,6 +163,7 @@
 }
 
 .feature__item {
+  position: relative;
   margin-bottom: 2em;
   font-size: 1.25rem;
 
@@ -178,10 +179,20 @@
 
   &--left {
     @include full();
+    position: relative;
     font-size: 1.25rem;
 
     .archive__item-teaser {
       margin-bottom: 2em;
+    }
+
+    a.btn::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 0;
+      right: 0;
+      bottom: 0;
     }
 
     @include breakpoint($small) {
@@ -199,10 +210,20 @@
 
   &--right {
     @include full();
+    position: relative;
     font-size: 1.25rem;
 
     .archive__item-teaser {
       margin-bottom: 2em;
+    }
+
+    a.btn::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 0;
+      right: 0;
+      bottom: 0;
     }
 
     @include breakpoint($small) {
@@ -222,10 +243,20 @@
 
   &--center {
     @include full();
+    position: relative;
     font-size: 1.25rem;
 
     .archive__item-teaser {
       margin-bottom: 2em;
+    }
+
+    a.btn::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 0;
+      right: 0;
+      bottom: 0;
     }
 
     @include breakpoint($small) {
