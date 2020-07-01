@@ -80,9 +80,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Sidebar Name"
-  avatar           : "jdannberg.png"
-  bio              : "Assistant Professor at University of Florida; Ph.D. in Geophysics (2016)."
+  name             : "Juliae Dannbger"
+  avatar           : "jdannberg.jpg"
+  bio              : "Assistant Professor at University of Florida; Ph.D. in Geophysics (2016). I am a geodynamicist, and I develop mathematical and computational models of the Earth's interior that can help us understand how the Earth's surface has evolved. In my research, I am particularly interested in the processes that cause rocks in the Earth's deep interior to melt, the migration of the generated magma towards the Earth's surface, and how these processes are connected to the formation of oceanic islands and other forms of volcanism."
   location         : "Gainesville, Florida"
   employer         :
   pubmed           : 
