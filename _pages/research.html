@@ -3,10 +3,18 @@ layout: archive
 title: "Research"
 permalink: /research/
 author_profile: true
+
+feature_row:
+  - image_path: gallery/thermo_chemical_plume.jpg
+    alt: "thermochemical plumes"
+    title: "Thermo-chemical plume"
+    excerpt: "Thermo-chemical plume rising from the core-mantle boundary and interacting with an overlying, moving plate. The movie shows the isosurface of the chemical composition (here, the fraction of recycled oceanic crust)."
+    url: "https://www.youtube.com/watch?v=dG-ULmcBr1E"
 ---
 
 {% include base_path %}
 
+{% include feature_row id="feature_row" type="left" %}
 
 {% for post in site.portfolio %}
   {% include archive-single.html %}
