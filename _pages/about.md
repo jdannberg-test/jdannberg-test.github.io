@@ -8,9 +8,9 @@ redirect_from:
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  overlay_image: banner_about.png
+  overlay_image: banner_about.jpg
   actions:
-excerpt: "Assistant Professor, University of Florida"
+excerpt: "Assistant Professor<br/> University of Florida"
 ---
 
 About me
