@@ -5,18 +5,52 @@ permalink: /research/
 author_profile: true
 
 feature_row:
-  - image_path: gallery/thermo_chemical_plume.jpg
-    alt: "thermochemical plumes"
-    title: "Thermo-chemical plume"
-    excerpt: "Thermo-chemical plume rising from the core-mantle boundary and interacting with an overlying, moving plate. The movie shows the isosurface of the chemical composition (here, the fraction of recycled oceanic crust)."
-    url: "https://www.youtube.com/watch?v=dG-ULmcBr1E"
+  - image_path: plume.png
+    alt: "mantle plumes"
+    title: "Mantle Plumes"
+    excerpt: "The Earth's biggest magmatic events are believed to originate from massive melting when hot
+    mantle plumes rising from the lowermost mantle approach the surface. The associated volcanic
+    eruptions are thought to be related to environmental catastrophes and mass extinction events.
+    After this first pulse of magmatic activity, plume conduits can remain stable in the mantle for
+    hundreds of millions of years, generating hotspot volcanism.  
+    </br>
+    I am interested in the effect of the chemical heterogeneity of the Earth's mantle on plume dynamics, 
+    the interplay between subducted slabs, chemical reservoirs in the deep mantle and rising plumes, 
+    and how these processes influence hot spot volcanism observed at the Earth's surface.
+    </br>
+    </br>
+    &larr; The image shows a model of a mantle plume, computed with the <a href="https://aspect.geodynamics.org">ASPECT</a> code. "
+
+  - image_path: ridge.png
+    alt: "magma dynamics"
+    title: "Magma Dynamics"
+    excerpt: "I am interested in where magma forms in the Earth, how it moves to the surface, 
+    and the role it plays in the break-up of continents.
+    Using the modeling code <a href="https://aspect.geodynamics.org">ASPECT</a>, 
+    I have developed a solver for the porous flow of magma through a deforming solid rock, 
+    which controls many Earth system processes.
+    </br>
+    </br> 
+    &larr; The image shows a model of a mid-ocean ridge, with the red&ndash;yellow&ndash;white streamlines
+    illustrating the flow of magma."
+
+  - image_path: projects.png
+    alt: "other projects"
+    title: "Other Projects"
+    excerpt: "I work on a wide range of topics that can be addressed with geodynamic modeling techniques, 
+    using the <a href="https://aspect.geodynamics.org">ASPECT</a> software. 
+    This inlcudes: Numerical methods for magma/mantle dynamics and mantle compressiblity, 
+    the formation of melt bands in partially molten rocks, 
+    the role of mineral grain size in mantle dynamics,
+    accurately modeling mantle phase transitions,
+    the thermodiffusion of iron isotopes at the core-mantle boundary, 
+    and how global mantle flow and subducting slabs influence the locations of mantle plumes."
 ---
 
 {% include base_path %}
 
 {% include feature_row id="feature_row" type="left" %}
 
-{% for post in site.portfolio %}
-  {% include archive-single.html %}
-{% endfor %}
+I wrote my <a href="https://publishup.uni-potsdam.de/opus4-ubp/frontdoor/index/index/docId/9102">PhD Thesis</a></li>
+  on the Dynamics of Mantle Plumes: Linking Scales and Coupling Physics. 
 
