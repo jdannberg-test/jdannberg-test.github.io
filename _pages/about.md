@@ -10,6 +10,7 @@ header:
   overlay_filter: "0.5"
   overlay_image: banner_about.jpg
   actions:
+  caption: "Photo credit: Colorado State University / Joe A. Mendoza"
 excerpt: "Assistant Professor<br/> University of Florida"
 ---
 
