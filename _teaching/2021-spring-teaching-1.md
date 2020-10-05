@@ -2,9 +2,9 @@
 title: "GLY4450 Geophysics/GLY5455 Introduction to Geophysics"
 collection: teaching
 type: "Undergraduate course/Graduate course"
-permalink: /teaching/2020-spring-teaching-1
+permalink: /teaching/2021-spring-teaching-1
 venue: "University of Florida, Department of Geological Sciences"
-date: 2020-01-01
+date: 2021-01-01
 location: "Gainesville, Florida"
 ---
 
@@ -17,4 +17,4 @@ It includes answering questions such as:
 
 The course teach how to use tools from mathematics and physics, and in particular computer modeling, to address these questions. In addition, it discusses the constraints on these problems provided by paleomagnetism, mineral physics, seismology, volcanology, geochemistry, petrology, and other disciplines.
 
-[Syllabus](../files/2020_Syllabus.pdf)
+Syllabus coming soon!
