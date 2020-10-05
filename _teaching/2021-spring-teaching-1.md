@@ -1,5 +1,5 @@
 ---
-title: "GLY4450 Geophysics/GLY5455 Introduction to Geophysics"
+title: "Spring 2021: GLY4450 Geophysics/GLY5455 Introduction to Geophysics"
 collection: teaching
 type: "Undergraduate course/Graduate course"
 permalink: /teaching/2021-spring-teaching-1
