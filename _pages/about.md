@@ -25,4 +25,5 @@ Software
 I am one of the principal developers and maintainers of the free modeling software [ASPECT](https://aspect.geodynamics.org) (Advanced Solver for
 Problems in Earth's Convection). ASPECT uses modern numerical methods to support research in simulating convection in the Earth's mantle and elsewhere.
 
+![ASPECT logo](../images/ASPECT_logo_small.png)
 
