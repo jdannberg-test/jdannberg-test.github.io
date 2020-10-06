@@ -1,16 +1,57 @@
 ---
-layout: archive
-title: "Talks and presentations"
+layout: splash
+title: "Talks and Presentations"
 permalink: /talks/
 author_profile: true
+header:
+  overlay_color: "#000"
+  overlay_filter: "0.5"
+  overlay_image: banner.png
+  actions:
+    - label: "Download"
+      url: "https://github.com/mmistakes/minimal-mistakes/"
+  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
+excerpt: "I use the [ASPECT](https://aspect.geodynamics.org) geodynamics modeling code to create numerical models for my research. Below are some links to animations of these models."
+feature_row:
+  - image_path: gallery/cig_aspect2_webinar.png
+    alt: "webinar2"
+    title: "ASPECT 2.0: Improved architecture, new features"
+    excerpt: "CIG webinar, with Rene Gassmoeller and John Naliboff (2018)"
+    url: "https://www.youtube.com/watch?v=5lfZDGMlPY4"
+
+  - image_path: gallery/upgoer_five.png
+    alt: "upgoer5"
+    title: "Why Are the Pieces of Land in the Wide Water that Breathe out Fire and Smoke Made of Different Types of Rocks?"
+    excerpt: "Up-Goer Five Challenge at the AGU Fall Meeting 2018"
+    url: "https://www.youtube.com/watch?v=SAxO2nzhvZ0&t=17s"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
+
+  - image_path: gallery/schule_mit_wissenschaft.png
+    title: "Ein Blick ins Innere der Erde -- Wie Gesteinsbewegungen unseren Planeten formen (in German)"
+    excerpt: "Schule mit Wissenschaft Thueringen (School MIT Science, a workshop for high-school teachers, in German) "
+    url: "https://www.youtube.com/watch?v=Rh2yn5sxMeM&feature=youtu.be"
+    btn_label: "Youtube"
+    btn_class: "btn--primary"
+
+  - image_path: gallery/melt_in_the_mantle.jpg
+    alt: "melt in the mantle"
+    title: "3D Numerical Modelling of Compressible Coupled Magma/Mantle Dynamics With Adaptive Mesh Refinement"
+    excerpt: "Melt in the mantle programme (with T. Heister), 2016"
+    url: "https://sms.cam.ac.uk/media/2263113"
+    btn_label: "Video"
+    btn_class: "btn--primary"
+
+  - image_path: gallery/aspect_webinar.jpg
+    alt: "aspect webinar"
+    title: "Geodynamic modeling of eclogite-bearing mantle plumes using ASPECT"
+    excerpt: "CIG webinar, with the ASPECT team (2014)"
+    url: "https://www.youtube.com/watch?v=riJEMIFw3s8"
+    btn_label: "Youtube"
+    btn_class: "btn--primary"
 ---
 
-{% if site.talkmap_link == true %}
+{% include feature_row %}
 
-<p style="text-decoration:underline;"><a href="/talkmap.html">See a map of all the places I've given a talk!</a></p>
+{% include base_path %}
 
-{% endif %}
-
-{% for post in site.talks reversed %}
-  {% include archive-single-talk.html %}
-{% endfor %}
