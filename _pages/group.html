@@ -10,12 +10,28 @@ header:
   actions:
 excerpt: "I enjoy working collaboratively, and the members of my research group all explore different aspects of the dynamics of the Earth."
 ---
-<h1>Current memebers of my research group</h2>
+<h1>Current members of my research group</h1>
+
+feature_row1:
+  - image_path: kiran.jpg
+    alt: "Kiran Chotalia"
+    title: "Kiran Chotalia"
+    excerpt: "<h2>Postdoctoral Research Associate (June 2020 - present)</h2> <br/> <br/>
+    I’m a geodynamicist using ASPECT to understand mixing in the lower mantle. 
+    The picture on the left shows me at AGU 2018 presenting some of my PhD work.
+    Find out more about me [here](https://kchotalia.github.io/)."
+
+feature_row2:
+  - image_path: arushi.jpg
+    alt: "Arushi Saxena"
+    title: "Arushi Saxena"
+    excerpt: "<h2>Postdoctoral Research Associate (June 2020 - present)</h2> <br/> <br/>
+    Find out more about me [here](http://www.ceri.memphis.edu/people/asaxena/)."
+
+---
 
 {% include base_path %}
 
-
-{% for post in site.portfolio %}
-  {% include archive-single.html %}
-{% endfor %}
+{% include feature_row id="feature_row1" type="left" %}
+{% include feature_row id="feature_row2" type="left" %}
 
