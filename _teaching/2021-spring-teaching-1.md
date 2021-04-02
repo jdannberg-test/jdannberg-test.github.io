@@ -15,6 +15,6 @@ It includes answering questions such as:
 * What processes lead to volcanism and where is melt present in the Earth’s interior?
 * What are the major structures inside the Earth and what processes lead to the formation of these structures?
 
-The course teach how to use tools from mathematics and physics, and in particular computer modeling, to address these questions. In addition, it discusses the constraints on these problems provided by paleomagnetism, mineral physics, seismology, volcanology, geochemistry, petrology, and other disciplines.
+The course teaches how to use tools from mathematics and physics, and in particular computer modeling, to address these questions. In addition, it discusses the constraints on these problems provided by paleomagnetism, mineral physics, seismology, volcanology, geochemistry, petrology, and other disciplines.
 
-Syllabus coming soon!
+[Syllabus](../files/2021_Syllabus.pdf)
