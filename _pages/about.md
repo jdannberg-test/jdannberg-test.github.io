@@ -11,14 +11,14 @@ header:
   overlay_image: banner_about.jpg
   actions:
   caption: "Photo credit: Colorado State University / Joe A. Mendoza"
-excerpt: "Assistant Professor<br/> University of Florida"
+excerpt: "**Professor**<br/> GEOMAR Helmholtz Centre <br/>for Ocean Research Kiel <br/>and CAU Kiel"
 ---
 
 About me
 ======
 
-I am an Assistant Professor in the Department of Geological Sciences at the University of Florida in Gainesville.
-I am a geodynamicist, and I develop mathematical and computational models of the Earth's interior that can help us understand how the Earth's surface has evolved. In my research, I am particularly interested in the processes that cause rocks in the Earth's deep interior to melt, the migration of the generated magma towards the Earth's surface, and how these processes are connected to the formation of oceanic islands and other forms of volcanism.
+I am a Professor at GEOMAR Helmholtz Centre for Ocean Research Kiel and Kiel University.
+I am a geodynamicist, and I develop mathematical and computational models of the Earth's interior that can help us understand how the Earth's surface has evolved. In my research, I am particularly interested in the processes that cause rocks in the Earth's deep interior to deform, the creation and evolution of oceanic plates, the formation of oceanic islands, and how these processes are connected to volcanism.
 
 Software
 ------

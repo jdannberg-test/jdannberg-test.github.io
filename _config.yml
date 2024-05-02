@@ -82,16 +82,16 @@ analytics:
 author:
   name             : "Juliane Dannberg"
   avatar           : "profile.png"
-  bio              : "Assistant Professor at University of Florida; Ph.D. in Geophysics (2016)."
-  location         : "Department of Geological Sciences<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&hairsp;University of Florida<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&hairsp;219 Williamson Hall<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&hairsp;1843 Stadium Road<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&hairsp;Gainesville, FL 32611, USA"
+  bio              : "Professor at GEOMAR Helmholtz Centre for Ocean Research Kiel and Kiel University; Ph.D. in Geophysics (2016)."
+  location         : "GEOMAR Helmholtz Centre<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&hairsp;for Ocean Research Kiel<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&hairsp;Room 8D-209<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&hairsp;Wischhofstrasse 1-3<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&hairsp;24148 Kiel, Germany"
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=QJqgMoEAAAAJ&hl=en&oi=ao"
-  email            : "juliane.dannberg@ufl.edu"
+  email            : "jdannberg@geomar.de"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
